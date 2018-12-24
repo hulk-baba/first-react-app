@@ -13,7 +13,7 @@ function AddForm(){
     return(
         <form className="form-group">
             {formComponents}
-            <button type="submit" onClick={handle}>Click to Add</button>
+            <button type="submit" onClick={handle}>Submit to Add</button>
         </form>
         
     )
